@@ -11,7 +11,7 @@ Package information: [![Python 3.7](https://img.shields.io/badge/python-3.7-blue
 [![PyPI version](https://badge.fury.io/py/TPOT.svg)](https://badge.fury.io/py/TPOT)
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/EpistasisLab/tpot/master/images/tpot-clustering_logo.jpg" width=300 />
+<img src="https://github.com/Mcamilo/tpot-clustering/blob/main/images/tpot-clustering_logo.png?raw=true" width=300 />
 </p>
 
 ---
