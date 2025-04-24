@@ -6,7 +6,7 @@ import unittest
 import nose
 from sklearn.datasets import make_classification
 
-from tpot import TPOTClassifier
+from tpotclustering import TPOTClassifier
 
 try:
     import dask  # noqa

@@ -38,7 +38,7 @@ import numpy as np
 import pandas as pd
 import sklearn
 
-from tpot.driver import positive_integer, float_range, _get_arg_parser, \
+from tpotclustering.driver import positive_integer, float_range, _get_arg_parser, \
     _print_args, _read_data_file, load_scoring_function, tpot_driver, \
     positive_integer_or_none
 from nose.tools import assert_raises, assert_equal, assert_in

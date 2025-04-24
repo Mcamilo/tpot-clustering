@@ -27,11 +27,11 @@ from tqdm import tqdm
 import numpy as np
 from os import remove, path
 
-from tpot import TPOTClassifier, TPOTRegressor
-from tpot.export_utils import export_pipeline, generate_import_code, _indent, \
+from tpotclustering import TPOTClassifier, TPOTRegressor
+from tpotclustering.export_utils import export_pipeline, generate_import_code, _indent, \
     generate_pipeline_code, get_by_name, set_param_recursive
-from tpot.operator_utils import TPOTOperatorClassFactory
-from tpot.config.classifier import classifier_config_dict
+from tpotclustering.operator_utils import TPOTOperatorClassFactory
+from tpotclustering.config.classifier import classifier_config_dict
 
 from sklearn.datasets import load_digits
 from sklearn.model_selection import train_test_split

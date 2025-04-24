@@ -1,5 +1,5 @@
 from sklearn.datasets import load_iris
-from tpot.builtins import CategoricalSelector, ContinuousSelector
+from tpotclustering.builtins import CategoricalSelector, ContinuousSelector
 from nose.tools import assert_equal, assert_raises
 
 iris_data = load_iris().data

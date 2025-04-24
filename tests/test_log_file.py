@@ -23,7 +23,7 @@ License along with TPOT. If not, see <http://www.gnu.org/licenses/>.
 
 """
 
-from tpot import TPOTClassifier
+from tpotclustering import TPOTClassifier
 from sklearn.datasets import load_iris
 from nose.tools import assert_equal, assert_true
 import os

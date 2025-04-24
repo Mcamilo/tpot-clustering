@@ -23,9 +23,9 @@ License along with TPOT. If not, see <http://www.gnu.org/licenses/>.
 
 """
 
-from tpot import TPOTClassifier
-from tpot.config import classifier_config_nn
-from tpot.builtins import nn as nn
+from tpotclustering import TPOTClassifier
+from tpotclustering.config import classifier_config_nn
+from tpotclustering.builtins import nn as nn
 
 import numpy as np
 import pandas as pd

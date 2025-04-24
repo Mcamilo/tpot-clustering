@@ -26,7 +26,7 @@ License along with TPOT. If not, see <http://www.gnu.org/licenses/>.
 import platform
 
 import numpy as np
-from tpot.builtins import StackingEstimator
+from tpotclustering.builtins import StackingEstimator
 from sklearn.linear_model import LogisticRegression, Lasso
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.pipeline import make_pipeline

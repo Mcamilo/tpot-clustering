@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 def calculate_version():
-    initpy = open('tpot/_version.py').read().split('\n')
+    initpy = open('tpotclustering/_version.py').read().split('\n')
     version = list(filter(lambda x: '__version__' in x, initpy))[0].split('\'')[1]
     return version
 
@@ -45,15 +45,12 @@ setup(
                     'stopit>=1.1.1',
                     'pandas>=0.24.2',
                     'joblib>=0.13.2',
-                    'xgboost>=1.1.0'],
     extras_require={
         'skrebate': ['skrebate>=0.3.4'],
         'mdr': ['scikit-mdr>=0.4.4'],
         'dask': ['dask>=0.18.2',
                  'distributed>=1.22.1',
                  'dask-ml>=1.0.0'],
-        'torch': ['torch==1.13.1'],
-	'imblearn': ['imbalanced-learn>=0.7.0']
     },
     classifiers=[
         'Intended Audience :: Science/Research',

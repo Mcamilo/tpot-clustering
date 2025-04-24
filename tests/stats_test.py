@@ -23,8 +23,8 @@ License along with TPOT. If not, see <http://www.gnu.org/licenses/>.
 
 """
 
-from tpot import TPOTClassifier
-from tpot.gp_deap import initialize_stats_dict
+from tpotclustering import TPOTClassifier
+from tpotclustering.gp_deap import initialize_stats_dict
 
 from deap import creator
 

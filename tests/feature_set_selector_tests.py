@@ -25,7 +25,7 @@ License along with TPOT. If not, see <http://www.gnu.org/licenses/>.
 
 import numpy as np
 import pandas as pd
-from tpot.builtins import FeatureSetSelector
+from tpotclustering.builtins import FeatureSetSelector
 from nose.tools import assert_raises
 
 test_data = pd.read_csv("tests/tests.csv")

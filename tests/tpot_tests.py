@@ -23,24 +23,24 @@ License along with TPOT. If not, see <http://www.gnu.org/licenses/>.
 
 """
 
-from tpot import TPOTClassifier, TPOTRegressor
-from tpot.base import TPOTBase, _has_cuml
-from tpot.driver import float_range
-from tpot.gp_types import Output_Array
-from tpot.gp_deap import mutNodeReplacement, _wrapped_cross_val_score, pick_two_individuals_eligible_for_crossover, cxOnePoint, varOr, initialize_stats_dict
-from tpot.metrics import balanced_accuracy, SCORERS
-from tpot.operator_utils import TPOTOperatorClassFactory, set_sample_weight, source_decode
+from tpotclustering import TPOTClassifier, TPOTRegressor
+from tpotclustering.base import TPOTBase, _has_cuml
+from tpotclustering.driver import float_range
+from tpotclustering.gp_types import Output_Array
+from tpotclustering.gp_deap import mutNodeReplacement, _wrapped_cross_val_score, pick_two_individuals_eligible_for_crossover, cxOnePoint, varOr, initialize_stats_dict
+from tpotclustering.metrics import balanced_accuracy, SCORERS
+from tpotclustering.operator_utils import TPOTOperatorClassFactory, set_sample_weight, source_decode
 
-from tpot.config.classifier import classifier_config_dict
-from tpot.config.classifier_light import classifier_config_dict_light
-from tpot.config.regressor_light import regressor_config_dict_light
-from tpot.config.classifier_mdr import tpot_mdr_classifier_config_dict
-from tpot.config.regressor_mdr import tpot_mdr_regressor_config_dict
-from tpot.config.regressor_sparse import regressor_config_sparse
-from tpot.config.classifier_sparse import classifier_config_sparse
-from tpot.config.classifier_nn import classifier_config_nn
-from tpot.config.classifier_cuml import classifier_config_cuml
-from tpot.config.regressor_cuml import regressor_config_cuml
+from tpotclustering.config.classifier import classifier_config_dict
+from tpotclustering.config.classifier_light import classifier_config_dict_light
+from tpotclustering.config.regressor_light import regressor_config_dict_light
+from tpotclustering.config.classifier_mdr import tpot_mdr_classifier_config_dict
+from tpotclustering.config.regressor_mdr import tpot_mdr_regressor_config_dict
+from tpotclustering.config.regressor_sparse import regressor_config_sparse
+from tpotclustering.config.classifier_sparse import classifier_config_sparse
+from tpotclustering.config.classifier_nn import classifier_config_nn
+from tpotclustering.config.classifier_cuml import classifier_config_cuml
+from tpotclustering.config.regressor_cuml import regressor_config_cuml
 
 import numpy as np
 import pandas as pd
