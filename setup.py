@@ -44,7 +44,8 @@ setup(
                     'tqdm>=4.36.1',
                     'stopit>=1.1.1',
                     'pandas>=0.24.2',
-                    'joblib>=0.13.2'],
+                    'joblib>=0.13.2',
+                    'matplotlib==1.3.0'],
     extras_require={
         'skrebate': ['skrebate>=0.3.4'],
         'mdr': ['scikit-mdr>=0.4.4'],
