@@ -60,10 +60,11 @@ tpot_clustering = TPOTClustering(generations=5, population_size=50, verbosity=2,
 tpot_clustering.fit(data)
 print(tpot_clustering.score(data))
 tpot_clustering.export(f"tpot_clustering_{scoring}.py")
+```
 
 The **generated code** in tpot_clustering_silhouette_score.py includes the optimized pipeline, along with a PCA component to visualize the partitionings of the dataset:
 
-python
+```python
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
