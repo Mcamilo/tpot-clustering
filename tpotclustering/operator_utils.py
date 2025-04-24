@@ -231,7 +231,7 @@ def TPOTOperatorClassFactory(
             optype = "Resampler"
         else:
             raise ValueError(
-                "optype must be one of: Classifier, Regressor, Selector, Transformer, or Resampler"
+                "optype must be one of: Clusterer, Selector, Transformer, or Resampler"
             )
 
         @classmethod
@@ -239,7 +239,7 @@ def TPOTOperatorClassFactory(
             """Return the operator type.
 
             Possible values:
-                "Classifier", "Regressor", "Selector", "Transformer"
+                "Clusterer", "Selector", "Transformer"
             """
             return optype
 
