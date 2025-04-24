@@ -29,23 +29,26 @@ Generally, TPOT is licensed to be as widely usable as possible.
 
 ## Installation
 
-You can install TPOT-Clustering directly from the repository using pip. Make sure you have [pip](https://pip.pypa.io/en/stable/) installed.
+You can install TPOT-Clustering directly from the repository using pip. Make sure you have 
+[pip](https://pip.pypa.io/en/stable/) installed.
 
-bash
+```bash
 pip install git+https://github.com/Mcamilo/tpot-clustering.git
-
+```
 Alternatively, if you have cloned the repository, you can install it using the setup.py file:
-bash
+
+
+```bash
 git clone https://github.com/Mcamilo/tpot-clustering.git
 cd tpot-clustering
 pip install .
-
+```
 
 ## Examples of Usage (Clustering)
 
 Now, TPOT can optimize solutions for unsupervised clustering problems using the evaluation metrics provided by scikit-learn to synthesize optimal pipelines, namely silhouette_score, davies_bouldin_score, and calinski_harabasz_score. Below is a minimal working example with the sklearn's breast cancer dataset.
 
-python 
+```python 
 import pandas as pd
 from tpot import TPOTClustering
 from sklearn.datasets import load_breast_cancer
@@ -67,7 +70,6 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-
 
 # NOTE: Make sure that the csv file with the doesn't contain targets
 training_features = pd.read_csv('PATH/TO/DATA/FILE', dtype=np.float64)
@@ -99,7 +101,7 @@ plt.grid(True)
 plt.savefig('pca_plot.png')
 
 print("PCA plot saved as 'pca_plot.png'.")
-
+```
 
 Optimizing a clustering pipeline for different metrics such as the Silhouette score or the Davies-Bouldin score can lead to variations in the resulting clusters due to the distinct ways these metrics evaluate clustering quality, make sure you select a metric that better suit your needs:
 
@@ -117,7 +119,7 @@ For the clustering extension, please cite:
 
 You can cite TPOT-Clustering using the paper accepted at [IJCNN 2025](https://2025.ijcnn.org/).
 
-latex
+```latex
 @inproceedings{Camilo2025,
   title={TPOT-Clustering},
   author={Matheus Camilo da Silva and Sylvio Barbon Junior},
@@ -125,11 +127,11 @@ latex
   year={2025},
   organization={IEEE}
 }
-
+```
 
 If you use TPOT for classification or regression in your research, please consider citing the original TPOT paper:
 
-latex
+```latex
 @inproceedings{Olson2016,
   title={TPOT: A Tree-Based Pipeline Optimization Tool for Automating Machine Learning},
   author={Randal S. Olson and others},
@@ -138,7 +140,7 @@ latex
   pages={66-74},
   publisher={Springer}
 }
-
+```
 
 
 ## Support for TPOT
