@@ -150,6 +150,7 @@ def _get_arg_parser():
         help='Name of the target column in the input file.'
     )
 
+    #TODO: update to clustering
     parser.add_argument(
         '-mode',
         action='store',

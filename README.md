@@ -1,14 +1,33 @@
-Master status: [![Master Build Status - Mac/Linux](https://travis-ci.com/EpistasisLab/tpot.svg?branch=master)](https://travis-ci.com/EpistasisLab/tpot)
-[![Master Build Status - Windows](https://ci.appveyor.com/api/projects/status/b7bmpwpkjhifrm7v/branch/master?svg=true)](https://ci.appveyor.com/project/weixuanfu/tpot?branch=master)
-[![Master Coverage Status](https://coveralls.io/repos/github/EpistasisLab/tpot/badge.svg?branch=master)](https://coveralls.io/github/EpistasisLab/tpot?branch=master)
+# TPOT-Clustering
 
-Development status: [![Development Build Status - Mac/Linux](https://travis-ci.com/EpistasisLab/tpot.svg?branch=development)](https://travis-ci.com/EpistasisLab/tpot/branches)
-[![Development Build Status - Windows](https://ci.appveyor.com/api/projects/status/b7bmpwpkjhifrm7v/branch/development?svg=true)](https://ci.appveyor.com/project/weixuanfu/tpot?branch=development)
-[![Development Coverage Status](https://coveralls.io/repos/github/EpistasisLab/tpot/badge.svg?branch=development)](https://coveralls.io/github/EpistasisLab/tpot?branch=development)
+<!-- STATUS_BADGE -->
+- [https://github.com/Mcamilo/tpot-clustering](https://github.com/Mcamilo/tpot-clustering)
+- [https://github.com/EpistasisLab/tpot](https://github.com/EpistasisLab/tpot)
 
-Package information: [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+---
+
+## Master status
+
+[![Build Status](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml?query=branch%3Amaster)
+[![Codecov Coverage](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/master/graph/badge.svg)](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/master)
+
+<!-- If you are using Travis or AppVeyor, set them up for your repo and update links accordingly. 
+[![Master Build Status - Mac/Linux](https://travis-ci.com/Mcamilo/tpot-clustering.svg?branch=master)](https://travis-ci.com/Mcamilo/tpot-clustering)
+[![Master Build Status - Windows](https://ci.appveyor.com/api/projects/status/your-appveyor-id/branch/master?svg=true)](https://ci.appveyor.com/project/your-appveyor-user/tpot-clustering?branch=master)
+[![Master Coverage Status](https://coveralls.io/repos/github/Mcamilo/tpot-clustering/badge.svg?branch=master)](https://coveralls.io/github/Mcamilo/tpot-clustering?branch=master)
+-->
+
+## Development status
+
+[![Build Status](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml/badge.svg?branch=development)](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml?query=branch%3Adevelopment)
+[![Codecov Coverage](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/development/graph/badge.svg)](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/development)
+
+## Package information
+
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![License: LGPL v3](https://img.shields.io/badge/license-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
-[![PyPI version](https://badge.fury.io/py/TPOT.svg)](https://badge.fury.io/py/TPOT)
+[![PyPI version](https://badge.fury.io/py/tpot-clustering.svg)](https://badge.fury.io/py/tpot-clustering)
+
 
 <p align="center">
 <img src="https://github.com/Mcamilo/tpot-clustering/blob/main/images/tpot-clustering_logo.png?raw=true" width=300 />
