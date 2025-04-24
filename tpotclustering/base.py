@@ -285,7 +285,7 @@ class TPOTBase(BaseEstimator):
         """
         if self.__class__.__name__ == "TPOTBase":
             raise RuntimeError(
-                "Do not instantiate the TPOTBase class directly; use TPOTRegressor or TPOTClassifier instead."
+                "Do not instantiate the TPOTBase class directly; use TPOTClustering"
             )
 
         self.population_size = population_size

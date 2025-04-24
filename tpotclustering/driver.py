@@ -160,17 +160,15 @@ def _get_arg_parser():
         help='Name of the target column in the input file.'
     )
 
-    #TODO: update to clustering
     parser.add_argument(
         '-mode',
         action='store',
         dest='TPOT_MODE',
-        choices=['classification', 'regression'],
-        default='classification',
+        choices=['clustering'],
+        default='clustering',
         type=str,
         help=(
-            'Whether TPOT is being used for a supervised classification or '
-            'regression problem.'
+            'Whether TPOTClustering is adapted for clustering problems.'
         )
     )
 

@@ -34,7 +34,7 @@ TPOT-Clustering project: https://github.com/Mcamilo/tpot-clustering
 
 
 import numpy as np
-from sklearn.base import BaseEstimator, is_classifier, is_regressor
+from sklearn.base import BaseEstimator
 from sklearn.gaussian_process.kernels import Kernel
 import inspect
 
@@ -220,13 +220,7 @@ def TPOTOperatorClassFactory(
         return None, None
     else:
         # define if the operator can be the root of a pipeline
-        if is_classifier(op_obj):
-            class_profile["root"] = True
-            optype = "Classifier"
-        elif is_regressor(op_obj):
-            class_profile["root"] = True
-            optype = "Regressor"
-        elif _is_clusterer(op_obj):
+        if _is_clusterer(op_obj):
             class_profile["root"] = True
             optype = "Clusterer"
         elif _is_selector(op_obj):

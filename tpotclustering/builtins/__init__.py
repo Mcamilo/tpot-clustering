@@ -29,8 +29,3 @@ from .stacking_estimator import StackingEstimator
 from .one_hot_encoder import OneHotEncoder, auto_select_categorical_features, _transform_selected
 from .feature_transformers import CategoricalSelector, ContinuousSelector
 from .feature_set_selector import FeatureSetSelector
-try:
-    from .nn import PytorchLRClassifier, PytorchMLPClassifier
-except (ModuleNotFoundError, ImportError):
-    import warnings
-    warnings.warn("Warning: optional dependency `torch` is not available. - skipping import of NN models.")
