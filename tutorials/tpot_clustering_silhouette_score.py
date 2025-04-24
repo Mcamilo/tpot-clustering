@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from sklearn.cluster import KMeans
+from sklearn.cluster import AgglomerativeClustering
 
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
@@ -10,7 +10,7 @@ from sklearn.decomposition import PCA
 # NOTE: Make sure that the csv file with the doesn't contain targets
 training_features = pd.read_csv('PATH/TO/DATA/FILE', dtype=np.float64)
 
-# Average CV score on the training set was: 0.7072801240568757
+# Average CV score on the training set was: 0.8427159447547743
 
 # Standardize the data
 scaler = StandardScaler()
@@ -20,7 +20,7 @@ scaled_data = scaler.fit_transform(training_features)
 pca = PCA(n_components=2)
 pca_data = pca.fit_transform(scaled_data)
         
-exported_pipeline = KMeans(init="random", n_clusters=2)
+exported_pipeline = AgglomerativeClustering(linkage="ward", metric="euclidean", n_clusters=3)
 clusters = exported_pipeline.fit_predict(pca_data)
 
 # Plot PCA

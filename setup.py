@@ -19,7 +19,7 @@ setup(
     packages=find_packages(),
     url='https://github.com/Mcamilo/tpot-clustering',
     license='GNU/LGPLv3',
-    entry_points={'console_scripts': ['tpot=tpot:main', ]},
+    entry_points={'console_scripts': ['tpot-clustering=tpot:main', ]},
     description=('Tree-based Pipeline Optimization Tool'),
     long_description='''
     TPOT-Clustering is a Python tool that automatically creates and optimizes unsupervised machine learning (clustering) pipelines using genetic programming.
