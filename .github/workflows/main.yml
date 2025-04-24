@@ -1,8 +1,20 @@
-- name: Status Badges
-  uses: lucasvanmol/status-badges@v1.2.0
-  with:
-    path: README.md
-    token: ${{ secrets.GITHUB_TOKEN }}
-    active-emoji: ":green_circle:"
-    stale-emoji: ":yellow_circle:"
-    inactive-emoji: ":red_circle:"
+name: Status Badges Updater
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update-status-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Status Badges
+        uses: lucasvanmol/status-badges@v1.2.0
+        with:
+          path: README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+          active-emoji: ":green_circle:"
+          stale-emoji: ":yellow_circle:"
+          inactive-emoji: ":red_circle:"
