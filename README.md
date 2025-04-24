@@ -1,12 +1,8 @@
 # TPOT-Clustering
 
 <!-- STATUS_BADGE -->
-- [https://github.com/Mcamilo/tpot-clustering](https://github.com/Mcamilo/tpot-clustering)
-- [https://github.com/EpistasisLab/tpot](https://github.com/EpistasisLab/tpot)
-
+<!-- [https://github.com/Mcamilo/tpot-clustering](https://github.com/Mcamilo/tpot-clustering)
 ---
-
-## Master status
 
 [![Build Status](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml?query=branch%3Amaster)
 [![Codecov Coverage](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/master/graph/badge.svg)](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/master)
@@ -15,14 +11,13 @@
 [![Master Build Status - Mac/Linux](https://travis-ci.com/Mcamilo/tpot-clustering.svg?branch=master)](https://travis-ci.com/Mcamilo/tpot-clustering)
 [![Master Build Status - Windows](https://ci.appveyor.com/api/projects/status/your-appveyor-id/branch/master?svg=true)](https://ci.appveyor.com/project/your-appveyor-user/tpot-clustering?branch=master)
 [![Master Coverage Status](https://coveralls.io/repos/github/Mcamilo/tpot-clustering/badge.svg?branch=master)](https://coveralls.io/github/Mcamilo/tpot-clustering?branch=master)
--->
 
-## Development status
 
 [![Build Status](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml/badge.svg?branch=development)](https://github.com/Mcamilo/tpot-clustering/actions/workflows/ci.yml?query=branch%3Adevelopment)
 [![Codecov Coverage](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/development/graph/badge.svg)](https://codecov.io/gh/Mcamilo/tpot-clustering/branch/development)
+-->
 
-## Package information
+
 
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![License: LGPL v3](https://img.shields.io/badge/license-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
