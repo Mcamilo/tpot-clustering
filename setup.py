@@ -12,28 +12,29 @@ def calculate_version():
 package_version = calculate_version()
 
 setup(
-    name='TPOT',
+    name='TPOT-Clustering',
     version=package_version,
-    author='Randal S. Olson',
-    author_email='rso@randalolson.com',
+    author='Matheus Camilo da Silva, Sylvio Barbon Junior',
+    author_email='matheuscmilo@gmail.com',
     packages=find_packages(),
-    url='https://github.com/EpistasisLab/tpot',
+    url='https://github.com/Mcamilo/tpot-clustering',
     license='GNU/LGPLv3',
     entry_points={'console_scripts': ['tpot=tpot:main', ]},
     description=('Tree-based Pipeline Optimization Tool'),
     long_description='''
-A Python tool that automatically creates and optimizes machine learning pipelines using genetic programming.
+    TPOT-Clustering is a Python tool that automatically creates and optimizes unsupervised machine learning (clustering) pipelines using genetic programming.
+    It is a fork of the original TPOT project, extended to support clustering tasks.
 
-Contact
-=============
-If you have any questions or comments about TPOT, please feel free to contact us via:
+    Contact
+    =============
+    If you have any questions or comments about TPOT-Clustering, please feel free to contact:
 
-E-mail: ttle@pennmedicine.upenn.edu or weixuanf@pennmedicine.upenn.edu
+    E-mail: matheus.camilo@phd.units.it or sylvio.barbon@units.it
 
-or Twitter: https://twitter.com/trang1618 or https://twitter.com/WeixuanFu
+    This project is hosted at https://github.com/Mcamilo/tpot-clustering  
+    Original TPOT project: https://github.com/EpistasisLab/tpot
+    ''',
 
-This project is hosted at https://github.com/EpistasisLab/tpot
-''',
     zip_safe=True,
     install_requires=['numpy>=1.16.3',
                     'scipy>=1.3.1',
@@ -62,5 +63,5 @@ This project is hosted at https://github.com/EpistasisLab/tpot
         'Programming Language :: Python :: 3.7',
         'Topic :: Scientific/Engineering :: Artificial Intelligence'
     ],
-    keywords=['pipeline optimization', 'hyperparameter optimization', 'data science', 'machine learning', 'genetic programming', 'evolutionary computation'],
+    keywords=['clustering', 'pipeline optimization', 'hyperparameter optimization', 'data science', 'machine learning', 'genetic programming', 'evolutionary computation'],
 )
