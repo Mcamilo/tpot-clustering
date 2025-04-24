@@ -126,7 +126,7 @@ class TPOTBase(BaseEstimator):
         periodic_checkpoint_folder=None,
         early_stop=None,
         verbosity=0,
-        disable_update_check=False,
+        disable_update_check=True,
         log_file=None,
     ):
         """Set up the genetic programming algorithm for pipeline optimization.
